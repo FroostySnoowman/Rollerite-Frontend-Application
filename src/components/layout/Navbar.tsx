@@ -252,7 +252,7 @@ export function Navbar() {
           Skip to content
         </a>
         <Container>
-          <div className="flex h-14 items-center gap-2 sm:h-[4.25rem] sm:gap-4">
+          <div className="flex h-14 w-full items-center justify-between gap-3 sm:h-[4.25rem] sm:gap-4">
             <NavLink
               to="/"
               className="shrink-0 touch-manipulation font-display text-lg font-extrabold tracking-tight text-[var(--fg)] sm:text-xl"
