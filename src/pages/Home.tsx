@@ -16,14 +16,14 @@ export default function Home() {
         aria-labelledby="hero-heading"
       >
         <Container>
-          <div className="grid grid-cols-1 items-center gap-10 py-12 lg:gap-14 lg:py-16 lg:[grid-template-columns:minmax(0,1fr)_minmax(0,1fr)]">
+          <div className="grid grid-cols-1 items-center gap-8 py-8 sm:gap-10 sm:py-12 lg:gap-14 lg:py-16 lg:[grid-template-columns:minmax(0,1fr)_minmax(0,1fr)]">
             <div className="min-w-0 overflow-visible">
               <p className="mb-3 font-display text-xs font-bold uppercase tracking-[0.25em] text-[var(--accent-2)]">
                 Est. MMXXIV
               </p>
               <h1
                 id="hero-heading"
-                className="font-display text-4xl font-extrabold leading-snug tracking-tight text-balance text-[var(--fg)] break-words sm:text-5xl lg:text-6xl"
+                className="font-display text-[clamp(1.75rem,7vw,2.25rem)] font-extrabold leading-snug tracking-tight text-balance text-[var(--fg)] break-words sm:text-5xl lg:text-6xl"
               >
                 Coffee with{' '}
                 <span className="text-[var(--accent)]">character</span>, not fluff.

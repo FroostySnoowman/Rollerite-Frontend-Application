@@ -64,7 +64,7 @@ export default function Contact() {
                   type="text"
                   autoComplete="name"
                   placeholder="Lorem Ipsum"
-                  className="mt-2 w-full rounded-[var(--radius-sm)] border-[length:var(--border-width)] border-[var(--border)] bg-[var(--surface-muted)] px-4 py-3 text-[var(--fg)] shadow-[var(--shadow-sm)] placeholder:text-[var(--fg-muted)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
+                  className="mt-2 w-full rounded-[var(--radius-sm)] border-[length:var(--border-width)] border-[var(--border)] bg-[var(--surface-muted)] px-4 py-3 text-base text-[var(--fg)] shadow-[var(--shadow-sm)] placeholder:text-[var(--fg-muted)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
                 />
               </div>
               <div>
@@ -80,7 +80,7 @@ export default function Contact() {
                   type="email"
                   autoComplete="email"
                   placeholder="you@example.com"
-                  className="mt-2 w-full rounded-[var(--radius-sm)] border-[length:var(--border-width)] border-[var(--border)] bg-[var(--surface-muted)] px-4 py-3 text-[var(--fg)] shadow-[var(--shadow-sm)] placeholder:text-[var(--fg-muted)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
+                  className="mt-2 w-full rounded-[var(--radius-sm)] border-[length:var(--border-width)] border-[var(--border)] bg-[var(--surface-muted)] px-4 py-3 text-base text-[var(--fg)] shadow-[var(--shadow-sm)] placeholder:text-[var(--fg-muted)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
                 />
               </div>
               <div>
@@ -95,7 +95,7 @@ export default function Contact() {
                   name="message"
                   rows={5}
                   placeholder="Tell us about your visit…"
-                  className="mt-2 w-full resize-y rounded-[var(--radius-sm)] border-[length:var(--border-width)] border-[var(--border)] bg-[var(--surface-muted)] px-4 py-3 text-[var(--fg)] shadow-[var(--shadow-sm)] placeholder:text-[var(--fg-muted)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
+                  className="mt-2 w-full resize-y rounded-[var(--radius-sm)] border-[length:var(--border-width)] border-[var(--border)] bg-[var(--surface-muted)] px-4 py-3 text-base text-[var(--fg)] shadow-[var(--shadow-sm)] placeholder:text-[var(--fg-muted)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
                 />
               </div>
               <Button type="submit">Send message</Button>
